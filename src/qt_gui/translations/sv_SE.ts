@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sv">
+<TS version="2.1" language="sv_SE">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -184,7 +184,7 @@
     </message>
     <message>
         <source>requiresEnableSeparateUpdateFolder_MSG</source>
-        <translation>requiresEnableSeparateUpdateFolder_MSG</translation>
+        <translation>Denna funktion kräver konfigurationsalternativet &apos;Aktivera separat uppdateringsmapp&apos; för att fungera. Om du vill använda denna funktion, aktivera den</translation>
     </message>
     <message>
         <source>This game has no update to delete!</source>
@@ -744,47 +744,47 @@
     </message>
     <message>
         <source>consoleLanguageGroupBox</source>
-        <translation>consoleLanguageGroupBox</translation>
+        <translation>Konsollspråk:\nStäller in språket som PS4-spelet använder.\nDet rekommenderas att ställa in detta till ett språk som spelet har stöd för, vilket kan skilja sig mellan regioner</translation>
     </message>
     <message>
         <source>emulatorLanguageGroupBox</source>
-        <translation>emulatorLanguageGroupBox</translation>
+        <translation>Emulatorspråk:\nStäller in språket för emulatorns användargränssnitt</translation>
     </message>
     <message>
         <source>fullscreenCheckBox</source>
-        <translation>fullscreenCheckBox</translation>
+        <translation>Aktivera helskärm:\nStäller automatiskt in spelfönstret till helskämsläget.\nDetta kan växlas genom att trycka på F11-tangenten</translation>
     </message>
     <message>
         <source>separateUpdatesCheckBox</source>
-        <translation>separateUpdatesCheckBox</translation>
+        <translation>Aktivera separat uppdateringsmapp:\nAktiverar installation av speluppdateringar i en separat mapp för enkel hantering.\nDetta kan skapas manuellt genom att lägga till uppackad uppdatering till spelmappen med namnet &quot;CUSA00000-UPDATE&quot; där CUSA ID matchar spelets id</translation>
     </message>
     <message>
         <source>showSplashCheckBox</source>
-        <translation>showSplashCheckBox</translation>
+        <translation>Visa startskärm:\nVisar spelets startskärm (en speciell bild) när spelet startas</translation>
     </message>
     <message>
         <source>ps4proCheckBox</source>
-        <translation>ps4proCheckBox</translation>
+        <translation>Är PS4 Pro:\nGör att emulatorn fungerar som en PS4 PRO, som kan aktivera speciella funktioner i spel som har stöds för det</translation>
     </message>
     <message>
         <source>discordRPCCheckbox</source>
-        <translation>discordRPCCheckbox</translation>
+        <translation>Aktivera Discord Rich Presence:\nVisar emulatorikonen och relevant information på din Discord-profil</translation>
     </message>
     <message>
         <source>userName</source>
-        <translation>userName</translation>
+        <translation>Användarnamn:\nStäller in PS4ans användarkonto, som kan visas av vissa spel</translation>
     </message>
     <message>
         <source>TrophyKey</source>
-        <translation>TrophyKey</translation>
+        <translation>Trofényckel:\nNyckel som används för att avkryptera troféer. Måste hämtas från din konsoll (jailbroken).\nMåste innehålla endast hex-tecken</translation>
     </message>
     <message>
         <source>logTypeGroupBox</source>
-        <translation>logTypeGroupBox</translation>
+        <translation>Loggtyp:\nStäller in huruvida synkronisering av utdata för loggfönstret för prestanda. Kan ha inverkan på emulationen</translation>
     </message>
     <message>
         <source>logFilter</source>
-        <translation>logFilter</translation>
+        <translation>Loggfilter:\nFiltrera loggen till att endast skriva ut specifik information.\nExempel: &quot;Core:Trace&quot; &quot;Lib.Pad:Debug Common.Filesystem:Error&quot; &quot;*:Critical&quot;\nNivåer: Trace, Debug, Info, Warning, Error, Critical - i den ordningen, en specifik nivå som tystar alla nivåer före den i listan och loggar allting efter den</translation>
     </message>
     <message>
         <source>updaterGroupBox</source>
@@ -792,35 +792,35 @@
     </message>
     <message>
         <source>GUIgroupBox</source>
-        <translation>GUIgroupBox</translation>
+        <translation>Spela upp titelmusik:\nOm ett spel har stöd för det kan speciell musik spelas upp från spelet i gränssnittet</translation>
     </message>
     <message>
         <source>disableTrophycheckBox</source>
-        <translation>disableTrophycheckBox</translation>
+        <translation>Inaktivera popup för troféer:\nInaktivera troféeaviseringar i spel. Troféförlopp kan fortfarande följas med Troféevisaren (högerklicka på spelet i huvudfönstret)</translation>
     </message>
     <message>
         <source>hideCursorGroupBox</source>
-        <translation>hideCursorGroupBox</translation>
+        <translation>Dölj pekare:\nVälj när muspekaren ska försvinna:\nAldrig: Du kommer alltid se muspekaren.\nOverksam: Ställ in en tid för när den ska försvinna efter den inte använts.\nAlltid: du kommer aldrig se muspekaren</translation>
     </message>
     <message>
         <source>idleTimeoutGroupBox</source>
-        <translation>idleTimeoutGroupBox</translation>
+        <translation>Dölj pekare vid overksam:\nLängden (sekunder) efter vilken som muspekaren som har varit overksam döljer sig själv</translation>
     </message>
     <message>
         <source>backButtonBehaviorGroupBox</source>
-        <translation>backButtonBehaviorGroupBox</translation>
+        <translation>Beteende för bakåtknapp:\nStäller in handkontrollerns bakåtknapp för att emulera ett tryck på angivna positionen på PS4ns touchpad</translation>
     </message>
     <message>
         <source>enableCompatibilityCheckBox</source>
-        <translation>enableCompatibilityCheckBox</translation>
+        <translation>Visa kompatibilitetsdata:\nVisar information om spelkompatibilitet i tabellvyn. Aktivera &quot;Uppdatera kompatibilitet vid uppstart&quot; för att få uppdaterad information</translation>
     </message>
     <message>
         <source>checkCompatibilityOnStartupCheckBox</source>
-        <translation>checkCompatibilityOnStartupCheckBox</translation>
+        <translation>Uppdatera kompatibilitet vid uppstart:\nUppdatera automatiskt kompatibilitetsdatabasen när shadPS4 startar</translation>
     </message>
     <message>
         <source>updateCompatibilityButton</source>
-        <translation>updateCompatibilityButton</translation>
+        <translation>Uppdatera kompatibilitetsdatabasen:\nUppdaterar kompatibilitetsdatabasen direkt</translation>
     </message>
     <message>
         <source>Never</source>
@@ -852,51 +852,51 @@
     </message>
     <message>
         <source>graphicsAdapterGroupBox</source>
-        <translation>graphicsAdapterGroupBox</translation>
+        <translation>Grafikenhet:\nFör system med flera GPUer kan du välja den GPU som emulatorn ska använda från rullgardinsmenyn,\neller välja &quot;Auto Select&quot; för att automatiskt bestämma det</translation>
     </message>
     <message>
         <source>resolutionLayout</source>
-        <translation>resolutionLayout</translation>
+        <translation>Bredd/Höjd:\nStäller in storleken för emulatorfönstret vid uppstart, som kan storleksändras under spelning.\nDetta är inte det samma som spelupplösningen</translation>
     </message>
     <message>
         <source>heightDivider</source>
-        <translation>heightDivider</translation>
+        <translation>Vblank Divider:\nBildfrekvensen som emulatorn uppdaterar vid multipliceras med detta tal. Ändra detta kan ha inverkan på saker, såsom ökad spelhastighet eller göra sönder kritisk spelfunktionalitet, som inte förväntar sig denna ändring</translation>
     </message>
     <message>
         <source>dumpShadersCheckBox</source>
-        <translation>dumpShadersCheckBox</translation>
+        <translation>Aktivera Shaders Dumping:\nFör teknisk felsökning, sparar spelets shaders till en mapp när de renderas</translation>
     </message>
     <message>
         <source>nullGpuCheckBox</source>
-        <translation>nullGpuCheckBox</translation>
+        <translation>Aktivera Null GPU:\nFör teknisk felsökning, inaktiverar spelrenderingen som om det inte fanns något grafikkort</translation>
     </message>
     <message>
         <source>gameFoldersBox</source>
-        <translation>gameFoldersBox</translation>
+        <translation>Spelmappar:\nListan över mappar att leta i efter installerade spel</translation>
     </message>
     <message>
         <source>addFolderButton</source>
-        <translation>addFolderButton</translation>
+        <translation>Aktivera separat uppdateringsmapp:\nAktiverar installation av speluppdateringar till en separat mapp för enkel hantering.\nDetta kan manuellt skapas genom att lägga till den uppackade uppdateringen till spelmappen med namnet &quot;CUSA00000-UPDATE&quot; där CUSA ID matchar spelets id</translation>
     </message>
     <message>
         <source>removeFolderButton</source>
-        <translation>removeFolderButton</translation>
+        <translation>Ta bort:\nTa bort en mapp från listan</translation>
     </message>
     <message>
         <source>debugDump</source>
-        <translation>debugDump</translation>
+        <translation>Aktivera felsökningsdumpning:\nSparar import och export av symboler och fil-header-information för aktuellt körande PS4-program till en katalog</translation>
     </message>
     <message>
         <source>vkValidationCheckBox</source>
-        <translation>vkValidationCheckBox</translation>
+        <translation>Aktivera Vulkan Validation Layers:\nAktiverar ett system som validerar tillståndet för Vulkan renderer och loggar information om dess interna tillstånd.\nDetta kommer minska prestandan och antagligen ändra beteendet för emuleringen</translation>
     </message>
     <message>
         <source>vkSyncValidationCheckBox</source>
-        <translation>vkSyncValidationCheckBox</translation>
+        <translation>Aktivera Vulkan Synchronization Validation:\nAktiverar ett system som validerar timing för Vulkan rendering tasks.\nDetta kommer minska prestandan och antagligen ändra beteendet för emuleringen</translation>
     </message>
     <message>
         <source>rdocCheckBox</source>
-        <translation>rdocCheckBox</translation>
+        <translation>Aktivera RenderDoc-felsökning:\nOm aktiverad kommer emulatorn att tillhandahålla kompatibilitet med Renderdoc för att tillåta fångst och analys för aktuell renderad bildruta</translation>
     </message>
 </context>
 <context>
@@ -907,7 +907,7 @@
     </message>
     <message>
         <source>defaultTextEdit_MSG</source>
-        <translation>defaultTextEdit_MSG</translation>
+        <translation>Fusk/Patchar är experimentella.\nAnvänd med försiktighet.\n\nHämta fusk individuellt genom att välja förrådet och klicka på hämtningsknappen.\nUnder Patchar-fliken kan du hämta alla patchar på en gång, välj vilken du vill använda och spara ditt val.\n\nEftersom vi inte utvecklar fusk eller patchar,\nrapportera gärna problem till fuskets upphovsperson.\n\nSkapat ett nytt fusk? Besök:\nhttps://github.com/shadps4-emu/ps4_cheats</translation>
     </message>
     <message>
         <source>No Image Available</source>
@@ -1039,7 +1039,7 @@
     </message>
     <message>
         <source>CheatsNotFound_MSG</source>
-        <translation>CheatsNotFound_MSG</translation>
+        <translation>Inga fusk hittades för detta spel i denna version av det valda förrådet. Prova ett annat förråd eller en annan version av spelet</translation>
     </message>
     <message>
         <source>Cheats Downloaded Successfully</source>
@@ -1047,7 +1047,7 @@
     </message>
     <message>
         <source>CheatsDownloadedSuccessfully_MSG</source>
-        <translation>CheatsDownloadedSuccessfully_MSG</translation>
+        <translation>Du har hämtat ner fusken för denna version av spelet från valt förråd. Du kan försöka att hämta från andra förråd, om de är tillgängliga så kan det vara möjligt att använda det genom att välja det genom att välja filen från listan</translation>
     </message>
     <message>
         <source>Failed to save:</source>
@@ -1063,7 +1063,7 @@
     </message>
     <message>
         <source>DownloadComplete_MSG</source>
-        <translation>DownloadComplete_MSG</translation>
+        <translation>Patchhämtningen är färdig! Alla patchar tillgängliga för alla spel har hämtats och de behövs inte hämtas individuellt för varje spel som med fusk. Om patchen inte dyker upp kan det bero på att den inte finns för det specifika serienumret och versionen av spelet</translation>
     </message>
     <message>
         <source>Failed to parse JSON data from HTML.</source>
